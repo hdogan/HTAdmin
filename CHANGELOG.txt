@@ -1,0 +1,101 @@
+-[ Version 1.2.6 ]-
+   Dec 20 2005
+ * [Dec 20] Footer file will be included when HTAdmin causes an error.
+ * [Dec 20] Re-cleaned CHANGELOG file.
+ * [Dec 09] Special thanks to Clever Concepts, Inc. for their precious
+            donations. Check their site at http://www.cleverconcepts.net
+ * [Aug 04] Fixed small interface (HTML) errors on main page design.
+ * [Mar 29] Fixed password creation bug on Mac OS X operating system. HTAdmin 
+            was detecting running operating system as Windows and always 
+            returning error string as a crypted password. Special thanks to  
+            Leslie Camacho for testing HTAdmin on Mac OS X and reporting 
+            this bug. Now, HTAdmin is compatible with Mac OS X.
+ * [Mar 29] Some htpasswd.exe files for Windows are different, they don't 
+            able to output crpyted passwords. Correct htpasswd.exe tool for 
+            Windows is included into package to fix this problem.
+ * [Mar 17] Special thanks to Stawart Consulting Services for supporting this 
+            small project with their donation (This is the first donation for 
+            this project).
+
+-[ Version 1.2.5 ]-
+   Mar 01 2005
+ * [Feb 05] Fixed htpasswd.exe parameter bug in crypt_password() function 
+            (only effects on Windows OS) (Special thanks to Michael Kloeffer 
+            for reporting and fixing this bug). 
+ * [??? ??] Fixed bug in crypt_password() function (only effects on Windows OS)
+            (Special thanks to Huan Wang for reporting and fixing this bug). 
+ * [??? ??] Fixed small bug in is_valid_* functions (Special thanks to 
+            Federico Andrioli for report and fix this bug). 
+ * [??? ??] Fixed password creation bug on Windows (Special thanks to 
+            Dirk Fleckenstein and Carl Bateson for report and fix this bug).
+
+-[ Version 1.2.4 ]-
+   Aug 07 2003
+ * [Aug 07] No more notice error messages.
+ * [Aug 06] Added Windows support.
+
+-[ Version 1.2.3 ]-
+   Jul 06 2003
+ * [Jul 06] Removed all email addresses (except my) from all files (because of 
+            spam).
+ * [May 22] Tested with register_globals=Off PHP ini setting. HTAdmin is now 
+	    full register_globals = Off compatible (Special thanks to 
+	    Guillermo Gianello for reporting this deficiency). 
+ * [May 21] Cleaned notice errors when PHP error reporting contains notice 
+            errors. Tested all code with error_reporting(E_ALL); (Special 
+            thanks to Guillermo Gianello for reporting this mistake).
+ * [Oct 31] Fixed REQUEST METHOD problem (some PHP versions returns empty 
+            $REQUEST_METHOD enviroment variable in $HTTP_SERVER_VARS/$_SERVER 
+            array. Don't ask "Why?". Don't know). If you've got this problem 
+            you must set the register_globals directive to On in your php.ini 
+            file.
+ * [Sep 06] Fixed require() function problems when running on PHP >= 4.1.x
+ * [Sep 05] Some small interface modifications.
+
+-[ Version 1.2.2 ]-
+   Sep 03 2002
+ * [Sep 03] Fixing minor language mistakes. (Special thanks to Pieter Bos)
+ * [Aug 22] HTAdmin is now compatible with PHP 4.
+
+-[ Version 1.2.1 ]-
+   Nov 10 2001
+ * [Nov 10] Fixed simple .htaccess file creation bug (AuthUserFile is 
+            always .htaccess)
+
+-[ Version 1.2 ]-
+   Sep 06 2001
+ * [Sep 06] Added simple .htaccess file creation feature and fixed some
+            incorrect html tags
+            This is a first stable release and end of 1.x series
+
+-[ Version 1.1b ]-
+   May 02 2001
+ * [May 02] Added/patched Mike Eliott's ideas/changes (extra fields in
+            password file) (Special thanks to Mike Eliott for ideas)
+
+-[ Version 1.1a ]-
+   Jan 09 2001
+ * [Jan 09] Fixed superuser authentication bug (security bug)
+            (Special thanks to Osvaldo Tulini for report this bug)
+
+-[ Version 1.1 ]-
+   Nov 14 2000
+ * [Nov 14] Added superuser authentication for security
+ * [Nov 13] New README and CHANGELOG format
+ * [Nov 10] Added multiple password files support
+ * [Nov 10] Added random() function for links to fix cache problems
+ * [Oct 12] I was rewrite and cleanup all of the source code
+
+-[ Version 1.0b (Bugfix release) ]-
+   Sep 01 2000
+ * [Sep 01] Fixed stupid EditHTPasswd() bug
+            (Special thanks to Michael McIntosh for report this bug)
+
+-[ Version 1.0a ]-
+   Aug 24 2000
+ * [Aug 24] Fixed stupid SaveHTPasswd() bug
+            (Special thanks to Alex Piaz for report this bug)
+  
+-[ Version 1.0 ]-
+   Aug 22 2000
+ * [Aug 22] Initial (and buggy) release
