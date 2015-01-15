@@ -36,21 +36,6 @@ INSTALLATION
   configuration directive and write your htpasswd.exe filename with full path.
   (Use included htpasswd.exe file).
 
-FAQ
----
-
-Q: I don't understand your language, why?
-A: Because i can't speak english very well, my stupid english.
-Q: Why isn't HTAdmin 1.0c?
-A: Because Shane Allen was write and port it to Perl.
-Q: Why isn't HTAdmin 2.0?
-A: Because Bastian Friedrich was write it.
-Q: OK, where can i find HTAdmin 2.0?
-A: Try http://www.hido.net/projects/htadmin/download.php
-Q: Is there any port of HTAdmin for PHP-Nuke?
-A: Yes, you can find it's download link at
-   http://www.hido.net/projects/htadmin/download.php
-
 THANKS
 ------
 
